@@ -356,7 +356,7 @@ main {
   max-width: 36rem;
   position: absolute;
   top: 75rem;
-  left: 78rem;
+  right: 14.1rem;
   z-index: 4;
 }
 
@@ -366,6 +366,7 @@ main {
   min-height: 155rem;
   background-color: white;
   position: relative;
+  overflow: hidden;
 }
 
 .poppy-bear .left {
@@ -402,6 +403,7 @@ main {
   right: -10rem;
   z-index: 0;
   animation: rotate 10s linear infinite;
+  overflow: hidden;
 }
 
 .poppy-bear img:nth-of-type(2) {
@@ -496,6 +498,105 @@ footer .scrolltext span {
 
 footer .scrolltext h2 {
   animation: scroll 5s linear infinite;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    margin-bottom: 3rem;
+  }
+  main {
+    position: relative;
+  }
+  .lastyear {
+    position: static;
+  }
+  .lastyear h2,
+  .lastyear .lastyear-data div:nth-of-type(1),
+  .lastyear .lastyear-data div:nth-of-type(2),
+  .lastyear .lastyear-data div:nth-of-type(3),
+  .lastyear img {
+    position: static;
+    display: block;
+    margin: 0 auto 4rem auto;
+    max-width: 80%;
+  }
+  .stuck-in {
+    position: static;
+    padding: 4rem 0;
+  }
+  .stuck-in-top,
+  .stuck-in-bottom {
+    position: static;
+    display: block;
+    margin: 0 auto 4rem auto;
+    max-width: 80%;
+  }
+  .stuck-in img:nth-of-type(1),
+  .stuck-in img:nth-of-type(2),
+  .stuck-in img:nth-of-type(3),
+  .stuck-in img:nth-of-type(4),
+  .stuck-in img:nth-of-type(5),
+  .stuck-in img:nth-of-type(6),
+  .stuck-in img:nth-of-type(7) {
+    position: static;
+    display: block;
+    margin: 0 auto 4rem auto;
+    max-width: 80%;
+  }
+  .golden-bear {
+    position: static;
+    padding: 4rem 0;
+  }
+  .golden-bear-top,
+  .golden-bear-top .left,
+  .golden-bear-top .right,
+  .golden-bear img:nth-of-type(1),
+  .golden-bear img:nth-of-type(2) {
+    position: static;
+    display: block;
+    margin: 0 auto 4rem auto;
+    max-width: 80%;
+  }
+  .poppy-bear {
+    position: static;
+    padding: 4rem 0;
+  }
+  .poppy-bear .left,
+  .poppy-bear .right,
+  .poppy-bear img:nth-of-type(1),
+  .poppy-bear img:nth-of-type(2),
+  .poppy-bear img:nth-of-type(3) {
+    position: static;
+    display: block;
+    margin: 0 auto 4rem auto;
+    max-width: 80%;
+  }
+  footer .scrolltext {
+    position: static;
+    transform: rotateZ(0deg);
+    margin-bottom: 5rem;
+  }
+  footer .footer-top {
+    max-width: 80%;
+    margin: 0 auto 5rem auto;
+  }
+  footer .footer-top a {
+    margin: 0 auto;
+  }
+  footer .footer-bottom {
+    margin: 0 auto 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+  }
+  .footer-bottom .left {
+    margin: 0 auto 5rem auto;
+  }
+  .footer-bottom .right {
+    margin: 0 auto 5rem auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
