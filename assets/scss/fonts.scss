@@ -1,0 +1,48 @@
+// ! ++++++++++ FONTS
+
+@font-face {
+  font-family: "Text";
+  src: url(../font/Work_Sans/static/WorkSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BoldText";
+  src: url(../font/Work_Sans/static/WorkSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Heading";
+  src: url(../font/Lora/static/Lora-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BoldHeading";
+  src: url(../font/Lora/static/Lora-Bold.ttf);
+}
+
+// ! ++++++++++ FONT-SIZE
+
+h2 {
+  font-size: 8.8rem;
+  font-family: "Heading";
+}
+
+h3 {
+  font-size: 6.4rem;
+  font-family: "Heading";
+}
+
+h4 {
+  font-size: 3.2rem;
+  font-family: "Heading";
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Text";
+}
+
+a {
+  font-size: 2rem;
+  font-family: "Text";
+}
